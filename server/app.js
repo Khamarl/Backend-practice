@@ -43,6 +43,7 @@ app.post("/beasts", (req, res) => {
 
     // Grab the beast data
     const newBeast = req.body;
+    console.log(newBeast);
 
     //Select id for the beast
     newBeast["id"] = beasts.length;

@@ -9,7 +9,7 @@ const beasts = [
         loot: ["a giant eye", "sheep", "blood"]
     },
     {
-        id: 2,
+        id: 1,
         name: "Lochness",
         habitat: "Loch ness Scotland",
         dangerRating: "3",
@@ -18,7 +18,7 @@ const beasts = [
         loot: ["scales", "peg tooth", "blood"]
     },
     { 
-        id: 3 ,
+        id: 2 ,
         name: "Minotaur",
         habitat: "Greece",
         dangerRating: "5",
@@ -27,7 +27,7 @@ const beasts = [
         loot: ["bull horns", "bloodied axe", "blood"]
 },
 { 
-    id: 4 ,
+    id: 3 ,
     name: "Ogre",
     habitat: "swamps",
     dangerRating: "4",
@@ -36,7 +36,7 @@ const beasts = [
     loot: ["gut fat", "rotten bones", "blood"]
 },
 { 
-    id: 5 ,
+    id: 4 ,
     name: "Pegasus",
     habitat: "Greece",
     dangerRating: "3",
@@ -45,7 +45,7 @@ const beasts = [
     loot: ["winged scales", "leather mane", "blood"]
 },
 { 
-    id: 6 ,
+    id: 5 ,
     name: "Leprechaun",
     habitat: "Ireland",
     dangerRating: "1",
@@ -54,7 +54,7 @@ const beasts = [
     loot: ["gold", "green fibres", "blood"]
 },
 { 
-    id: 7 ,
+    id: 6 ,
     name: "Dragon",
     habitat: "Gothic towns",
     dangerRating: "5",
@@ -63,7 +63,7 @@ const beasts = [
     loot: ["burned scales", "dragonclaw", "blood"]
 },
 { 
-    id: 8 ,
+    id: 7 ,
     name: "Kratos",
     habitat: "Greece",
     dangerRating: "5",
@@ -72,7 +72,7 @@ const beasts = [
     loot: ["Bloodied sword", "bloodied axe", "coins"]
 },
 { 
-    id: 9 ,
+    id: 8 ,
     name: "Hydra",
     habitat: "Greece",
     dangerRating: "5",
@@ -81,7 +81,7 @@ const beasts = [
     loot: ["bull horns", "bloodied axe", "blood"]
 },
 { 
-    id: 10 ,
+    id: 9 ,
     name: "Godrick",
     habitat: "Greece",
     dangerRating: "5",

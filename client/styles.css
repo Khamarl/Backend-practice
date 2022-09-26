@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #C8A2C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+#container {
+
+padding-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: whitesmoke;
+width: 50%;
+border-radius: 35px;
+margin-top: 200px;
+box-shadow: 5px 10px;
+}
+#second {
+    display: flex;
+    flex-direction: row;
+}
+img { 
+    border-radius: 270% ;
+    padding: 20px;
+}
+li {
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+h1 {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+li:nth-child(1) {
+    color: darkorchid;
+  }
+
+li:nth-child(3) {
+    color: darkorchid;
+  }
+
+li:nth-child(5) {
+    color: darkorchid;
+  }
+
+li:nth-child(7) {
+    color: darkorchid;
+  }
+
+li:nth-child(9) {
+    color: darkorchid;
+  }
+
+li:nth-child(11) {
+    color: darkorchid;
+  }
+
+li:nth-child(13) {
+    color: darkorchid;
+  }
+  li:nth-child(15) {
+    color: darkorchid;
+  }
+  li:nth-child(17) {
+    color: darkorchid;
+  }
