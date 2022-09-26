@@ -29,8 +29,14 @@ app.get("/beasts/random", (req, res) => {
 });
 app.get("/beasts/:id", (req, res) => {
 
+
+    if(0 <= req.params.id && req.params.id < beasts.length){
    const filtered = beasts.filter((beast) => beast.id == req.params.id )
    res.send(filtered[0])
+    } else {
+        res.status(400).send({error: "You messed up"})
+    }
+
 });
 
 app.post("/beasts", (req, res) => {
@@ -38,7 +44,7 @@ app.post("/beasts", (req, res) => {
     // Grab the beast data
     const newBeast = req.body;
 
-    //Selcet id for the beast
+    //Select id for the beast
     newBeast["id"] = beasts.length;
 
     // Add it to the list of beasts 
